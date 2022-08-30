@@ -32,3 +32,15 @@ a{
     font-size: 18px;
     text-decoration: none;
 }
+
+.hero{
+    display: flex;
+    flex: 2;
+    background-color: #1F2937;
+    justify-content: space-around;
+}
+
+.main-image{
+    height: 250px;
+    width: 400px;
+}
