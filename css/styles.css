@@ -162,7 +162,8 @@ a:hover{
 
 .quote-title{
     color: #1F2937;
-    margin-left: 500px;
+    align-self:flex-end;
+    margin-right: 250px;
 }
 
 .call-to-action{
@@ -183,6 +184,12 @@ a:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.cta-left{
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
