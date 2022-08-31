@@ -28,7 +28,7 @@ ul{
     margin: 0%;
     display: flex;
     list-style: none;
-    gap: 16px;
+    gap: 20px;
 }
 
 a, .text, .footer-text{
