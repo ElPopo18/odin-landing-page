@@ -150,3 +150,11 @@ a, .text{
     color: #1F2937;
     margin-left: 500px;
 }
+
+.call-to-action{
+    display: flex;
+    flex: 2;
+    flex-basis: 400px;
+    justify-content: center;
+    align-items: center;
+}
