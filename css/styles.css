@@ -175,3 +175,11 @@ a, .text{
 .button2{
     border: 2px solid #E5E7EB;
 }
+
+.button2:hover{background-color: #336fcf;}
+
+.button2:active {
+    background-color: #336fcf;
+    box-shadow: 0 4px rgb(54, 54, 54);
+    transform: translateY(4px);
+  }
