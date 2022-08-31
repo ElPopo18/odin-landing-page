@@ -71,3 +71,10 @@ a, .text{
     box-shadow: 0 8px #2d3e5a;
 }
 
+.button1:hover{background-color: #2556a5;}
+
+.button1:active {
+    background-color: #2556a5;
+    box-shadow: 0 4px rgb(54, 54, 54);
+    transform: translateY(4px);
+  }
