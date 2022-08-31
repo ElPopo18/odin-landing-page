@@ -13,7 +13,7 @@ body{
     padding: 16px;
 }
 
-.title, .hero-title{
+.title, .hero-title, .quote-title{
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
@@ -144,4 +144,9 @@ a, .text{
     font-weight: 300;
     color: #1F2937;
     max-width: 830px;
+}
+
+.quote-title{
+    color: #1F2937;
+    margin-left: 500px;
 }
