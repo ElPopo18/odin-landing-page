@@ -63,7 +63,7 @@ a, .text{
     width: 450px;
 }
 
-.button1{
+.button1, .button2{
     background-color: #3882F5;
     font-size: 16px;
     color: #E5E7EB;
@@ -163,6 +163,15 @@ a, .text{
 .call-to-action-section{
     background-color: #3882F5;
     border-radius: 8px;   
+    box-sizing: border-box;
     width: 1000px;
     height: 150px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button2{
+    border: 2px solid #E5E7EB;
 }
