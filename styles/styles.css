@@ -156,7 +156,8 @@ a,
 }
 
 .quote-content{
-    padding: 32px 400px;
+    width: 1000px;
+    padding: 32px 50px;
 }
 
 .quote-autor,
@@ -168,6 +169,7 @@ a,
 .quote-autor{
     text-align: end;
     color: #1f2937;
+    margin-top: 12px;
 }
 
 .cta{
@@ -186,13 +188,15 @@ a,
     align-items: center;
     padding: 55px 100px;
     border-radius: 8px;
+    flex-wrap: wrap;
 }
 
 .cta-title{
     color: #F9FAF8;
 }
 
-.cta-text{
+.cta-text,
+.copyright{
     font-size: 18px;
     color: #F9FAF8;
 }
@@ -200,4 +204,12 @@ a,
 .cta-button{
     border-style: solid;
     border-color: #F9FAF8;
+}
+
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 50px;
 }
